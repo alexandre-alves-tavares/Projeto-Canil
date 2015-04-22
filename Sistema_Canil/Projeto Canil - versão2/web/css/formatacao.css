@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/04/2015, 20:20:38
+    Author     : Alexandre
+*/
+
+
+/* Geral */
+body{margin: 0 auto;font-family:arial, trebouchet, times new roman; color:#666666}
+a {text-decoration:none; color:#FFF;}
+h1 {margin-bottom:10px;} 
+.container {margin: 0 auto; max-width:1000px;}
+fieldset {border:none;}
+
+/* Login */
+#login{background-image:url(../img/login1.jpg); background-repeat:no-repeat; height:100%; width:100%; min-height:750px;}
+#login input {width:300px;}
+#login input[type=submit] {width:100px;}
+
+
+/* Menu */
+nav {background-color:#444444; max-width:1000px; height:40px; color:#FFF; padding-top:5px;}
+nav ul{list-style:none; margin-top:10px;}
+nav ul li{display:inline; margin-left:12%; margin-top:10px;}
+
+
+/* Rodape */
+footer {width:400px; background-color:#FFF; height:80px;}

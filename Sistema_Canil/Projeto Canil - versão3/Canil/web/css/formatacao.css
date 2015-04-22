@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/04/2015, 20:20:38
+    Author     : Alexandre
+*/
+
+
+/* Geral */
+body{margin: 0 auto;font-family:arial, trebouchet, times new roman; color:#666666}
+nav a {text-decoration:none; color:#FFF;}
+h1 {margin-bottom:10px;} 
+h4 {margin:5px 0 0 0;}
+.container {margin: 0 auto; max-width:1000px; height:600px;}
+fieldset {border:none;}
+label {display:block; font-size:12px;}
+
+/* Login */
+#login{background-image:url(../img/login1.jpg); background-repeat:no-repeat; height:100%; width:100%; min-height:750px;}
+#login input {width:300px;}
+#login input[type=submit] {width:100px;}
+
+
+/* Menu */
+nav {background-color:#444444; max-width:1000px; height:40px; color:#FFF; padding-top:5px;}
+nav ul{list-style:none; margin-top:10px;}
+nav ul li{display:inline; margin-left:12%; margin-top:10px;}
+
+/* formularios */
+.select {height:30px; width:100px; border-radius:5px;}
+.cor1 {color:#666666;}
+.barra {height:1px; max-width:996px; background-image: url(../img/barra.jpg); background-repeat:no-repeat; padding-top:0; margin-top:0;}
+textarea {width:500px; height:100px; }
+input {width:500px; border-radius:5px; height:26px; border-style:groove; padding-left:10px;}
+input[name|="codigo"] {width:100px;}
+input[type=radio] {width:10px;}
+input[type=submit] {margin-top:0px; width:100px; float:left; background-color:#444444; color:#FFF; border:none; height:30px; text-align:center; padding:0; border-radius:5px;}
+input[name|="pesquisa"]{width:700px;}
+input[type=select]{height:20px;}
+
+/* Conteudo */
+.tabelaAnimais{border-style:solid; border:5px; border-color:#666666; border-radius:5px; max-width:600px;}
+.tabelaAnimais td[name|="codigo"]{width:70px; text-decoration:bold;color:#000;}
+.tabelaAnimais td[name|="nome"]{width:200px; text-decoration: strong; color:#000;}
+.tabelaAnimais td[name|="baia"]{width:60px; text-decoration: strong; color:#000;}
+
+/* Rodape */
+footer {width:100%; max-width:1000px; background-color:#FFF; height:80px; float:left; display:block; margin-top:700px; text-align: center;}
