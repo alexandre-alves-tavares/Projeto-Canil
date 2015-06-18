@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/04/2015, 20:20:38
+    Author     : Alexandre
+*/
+
+
+/* Geral */
+body{margin: 0 auto;font-family:arial, trebouchet, times new roman; color:#666666}
+.Tnav a {text-decoration:none; color:#FFF;}
+h1 {margin-bottom:10px;} 
+h3, h2 {margin-top:50px;}
+h4 {margin:5px 0 0 0;}
+h5{margin-top:50px; cursor:pointer; max-width:200px; background-color:orange;  font-size:20px; text-align:center; height:28px; padding-top:5px; color:#FFF;}
+.Tcontainer {margin: 0 auto; max-width:1000px; height:600px;}
+fieldset {border:none;}
+label {display:block; font-size:12px;}
+
+/* Login */
+#login{background-image:url(../img/login1.jpg); background-repeat:no-repeat; height:100%; width:100%; min-height:750px;}
+#login input {width:300px;}
+#login input[type=submit] {width:100px;}
+
+
+/* Menu */
+.Tnav {background-color:#444444; width:1000px; height:40px; color:#FFF; position:fixed;top:0px}
+.Tnav ul{list-style:none; margin-top:10px;}
+.Tnav ul li{display:inline; margin-left:12%; margin-top:10px;}
+.menuFixo {position: fixed; top: 0;z-index: 9999;}
+.menuHeader  {height:60px;}
+
+/* formularios */
+.select {height:30px; width:100px; border-radius:5px;}
+.cor1 {color:#666666;}
+.barra {height:1px; max-width:996px; background-image: url(../img/barra.jpg); background-repeat:no-repeat; padding-top:0; margin-top:0;}
+textarea {width:500px; height:100px;}
+input {width:500px; border-radius:5px; height:26px; border-style:groove; padding-left:10px;}
+input[name|="codigo"] {width:100px;}
+input[type=radio] {width:10px;}
+input[type=submit] {margin-top:0px; width:100px; float:left; background-color:#444444; color:#FFF; border:none; height:30px; text-align:center; padding:0; border-radius:5px;}
+input[name|="pesquisa"]{width:700px;}
+input[type=select]{height:20px;}
+
+/* Conteudo */
+.tabelaAnimais{border-style:solid; border:5px; border-color:#666666; border-radius:5px; max-width:600px;}
+.tabelaAnimais td[name|="codigo"]{width:70px; text-decoration:bold;color:#000;}
+.tabelaAnimais td[name|="nome"]{width:200px; text-decoration: strong;color:#000;}
+.tabelaAnimais td[name|="baia"]{width:60px; text-decoration: strong;color:#000;}
+#perfil {width:610px; float:left; padding:5px; background-color:#00698C; color:#FFF; height:590px; border-radius:5px;}
+#perfil table{color:#FFF; margin-bottom:10px;}
+#perfil table td {width:170px; height:30px;}
+#perfil label{display:inline; font-size:16px;}
+#perfil #foto{width:246px; height:160px; background-color:yellow; float:left; border: 2px solid orange; margin-right:15px;}
+#perfil #foto img{max-width:246px; max-height:160px;}
+#listaAnimais{max-width:400px;float:left;}
+#inicial{max-width:1000px; height:100%; border-style:double; border:1px solid #666666; border-color:#000; border-radius:5px;  padding: 10px;}
+#botao1 {width:120px; height:30px; border:none; float:right; margin:0 5px 0 5px;}
+#dataagenda {width:150px;}
+#agenda {border:1px solid #666666; border-radius: 5px; margin: 10px 0 10px 0; padding: 10px; width:1000px;}
+#agenda td{padding-bottom:10px;}
+#divisoria {border:1px dashed #FFF; margin:0px;}
+.lista {width:100%;; text-align:center;}
+.lista #botao{width:20px;}
+.lista #topo{background-color:#00698C; color:#FFF;}
+.lista #impar{background-color:#CCE1E8;}
+.lista #par{background-color:#FFF;}
+.menos {background-image:url(../img/menos.png);}
+.mais {background-image:url(../img/mais.png);}
+#paginadores {margin-top:20px;  text-align:center;}
+#paginadores a{margin: 0 1% 0 1%; text-decoration:none; color:#00698C;}
+#paginadores .selecionado{margin: 0 1% 0 1%; text-decoration:none; color:red;}
+#esconde {display:none;}
+
+/* Rodape */
+footer {width:100%; max-width:1000px; background-color:#FFF; height:80px; float:left; display:block; margin-top:700px; text-align: center;}
